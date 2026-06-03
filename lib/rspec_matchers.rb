@@ -1,0 +1,10 @@
+require "rspec/core"
+require "rspec/expectations"
+
+require_relative "rspec_matchers/version"
+require_relative "rspec_matchers/configuration"
+require_relative "rspec_matchers/matchers/execute_in_less_than"
+require_relative "rspec_matchers/matchers/be_json_response_of"
+require_relative "rspec_matchers/matchers/be_json_satisfying"
+require_relative "rspec_matchers/matchers/be_uri_encoded_json_of"
+require_relative "rspec_matchers/matchers/pagination"
