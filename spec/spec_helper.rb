@@ -4,7 +4,6 @@ require "simplecov-console"
 if ENV["COVERAGE"]
   SimpleCov.start {
     enable_coverage :branch
-    add_filter "/spec/"
   }
 end
 
